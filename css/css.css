@@ -324,3 +324,7 @@ form#book-form{
         cursor: pointer;
         text-decoration: none;
     }
+.table-bordered {
+    border: 1px solid #ddd;
+    color: black;
+}
