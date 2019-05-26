@@ -300,4 +300,27 @@ input#filter:focus{
 
 
 
+/*book list style*/
 
+table.table.table-bordered {
+    color: black;
+}
+form#book-form{
+    color: black;
+}
+.success, .error{
+        color:white;
+        padding: 5px;
+        margin: 5px 0 15px 0;
+    }
+
+    .success{
+        background: green;
+    }
+    .error{
+        background: red;
+    }
+    .delete{
+        cursor: pointer;
+        text-decoration: none;
+    }

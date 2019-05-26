@@ -102,6 +102,26 @@
 								<a href="http://skyaerotrade.ph/" target="_blank">Sky Aerotrade</a>
 							</div>
 						</div>
+						<!--  -->
+						<div class="card">
+							<img src="image/ram.jpg" 
+							style="width:100%" alt="Image">
+							<div class="container-card">
+								<a href="http://rampartylist.net/" target="_blank">RAM Partylist</a>
+							</div>
+						</div>
+						<div class="card">
+							<img src="image/aim-for-level-1logo.jpg" style="width:100%" alt="Image">
+							<div class="container-card">
+								<a href="https://www.membership.aimforlevel1.com/membership/page/login.php" target="_blank">Aim For Level 1</a>
+							</div>
+						</div>
+						<!-- <div class="card">
+							<img src="image/aerotrade.jpg" style="width:100%" alt="Image">
+							<div class="container-card">
+								<a href="http://skyaerotrade.ph/" target="_blank">Sky Aerotrade</a>
+							</div>
+						</div> -->
 						
 						</div>
 		</div>
@@ -232,11 +252,68 @@
 				<li>You have 3 Chance to Guess</li>
 				<li>Once Your guess was correct you have message success</li>
 			</div>
-		</div>
+
+
 		
 
 
 
+
+		</div>
+	</div>
+
+	<div class="custom-container"><hr></div>
+
+
+	<div class="container">
+		<div class="row">
+			<!-- book list es6 -->
+
+			<div class="col-md-6">
+			</div>
+			<div class="col-md-6  class_col_parent" style="margin-bottom: 50px;" id="parent_show_message">
+	
+
+					<div class="panel panel-info" id="book-form" >
+						<div class="panel-heading" 
+						>Book List</div>
+						<div class="panel-body">
+							<form action="" >
+								<div>
+									<label for="title">Title</label>
+									<input type="text" class="form-control" id="title" placeholder="Title">
+								</div>
+								<div>
+									<label for="author">Author</label>
+									<input type="text" class="form-control" id="author" placeholder="Author">
+								</div>
+								<div>
+									<label for="title">ISBN</label>
+									<input type="text" class="form-control" id="isbn" placeholder="ISBN">
+								</div>
+								<br>
+								<input type="submit" value="submit" class="btn btn-primary btn-block">
+							</form>
+							<br><br>
+							<table class="table table-bordered" >
+								<thead>
+									<th class="text-center">ISBN</th>
+									<th class="text-center">Author</th>
+									<th class="text-center">Title</th>
+									<th class="text-center">Action</th>
+								</thead>
+								<tbody id="book-list">
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+
+			</div>
+
+			<!-- end of book list es6 -->
+		</div>
 	</div>
 	<br>
 
@@ -291,6 +368,8 @@
 
 		   });
 		</script>
+		<script src="js/es6.js"></script>
+
 
 </body>
 </html>
