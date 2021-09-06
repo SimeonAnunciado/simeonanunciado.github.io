@@ -1,4 +1,5 @@
 // variable all
+let google_link = `https://drive.google.com/drive/folders/1BqoQL-iiIHPfvDYDU7eJCTYVAckOLrkO`;
 
 	let submitBtn = document.getElementById('submit');
 	let Taskinput = document.getElementById('task');
