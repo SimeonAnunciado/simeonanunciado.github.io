@@ -1,1 +1,1 @@
-console.log('feature b added  edited by feature-b branch');
+console.log('feature b');
