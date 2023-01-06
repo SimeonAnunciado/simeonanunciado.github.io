@@ -6,7 +6,7 @@ body{
         }
         #image-logo{
             float: left;
-            padding-left: 30px; 
+            padding-left: 30px;
             position: relative;
         }
         nav{
@@ -52,7 +52,7 @@ body{
         nav ul li:hover{
             background: #236d8e;
             /*cursor: pointer;*/
-  
+
         }
         .text-content {
         word-spacing: 5px;
@@ -112,7 +112,7 @@ body{
             margin-top: 30px;
         }
 
-        
+
         footer a {
     color: white;
     text-decoration: none;
@@ -157,7 +157,7 @@ footer {
             cursor: pointer;
         }
 
-       
+
         /*Media query*/
         @media (max-width: 768px){
             nav ul {
@@ -183,7 +183,7 @@ footer {
             }
             .container-img{
                 text-align: center !important;
-                width: 70% !important; 
+                width: 70% !important;
             }
             nav ul li {
                 box-sizing: border-box;
@@ -194,7 +194,7 @@ footer {
             .container-menu{
                 width: 100%;
             }
-        
+
             .menu-icon{
                 display: block;
             }
@@ -214,7 +214,7 @@ footer {
             }
 
         }
-        
+
         @media (max-width: 900px){
             nav ul {
                 max-height: 0px;
@@ -230,7 +230,7 @@ footer {
             }
             .container-img{
                 text-align: center !important;
-                width: 70% !important; 
+                width: 70% !important;
             }
             nav ul li {
                 box-sizing: border-box;
@@ -241,7 +241,7 @@ footer {
             .container-menu{
                 width: 100%;
             }
-        
+
             .menu-icon{
                 display: block;
             }
@@ -270,8 +270,8 @@ footer {
 
 .text-right{
     float: right;
-    color: red; 
-    font-weight:bold; 
+    color: red;
+    font-weight:bold;
     text-decoration: none;
     cursor: pointer;
 }
@@ -283,7 +283,7 @@ footer {
 input#filter {
     width: 30%;
     transition: .7s ease-in-out;
-}   
+}
 input#filter:focus{
     width: 100%;
 }
@@ -296,7 +296,7 @@ input#filter:focus{
             color: black;
  }
 
- 
+
 
 
 
@@ -327,4 +327,8 @@ form#book-form{
 .table-bordered {
     border: 1px solid #ddd;
     color: black;
+}
+/* added */
+.custom-container a {
+    color: red;
 }
