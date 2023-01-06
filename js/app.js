@@ -1,6 +1,4 @@
 // variable all
-let google_link = `https://drive.google.com/drive/folders/1BqoQL-iiIHPfvDYDU7eJCTYVAckOLrkO`;
-
 	let submitBtn = document.getElementById('submit');
 	let Taskinput = document.getElementById('task');
 	let Filter = document.getElementById('filter');
@@ -20,7 +18,7 @@ let google_link = `https://drive.google.com/drive/folders/1BqoQL-iiIHPfvDYDU7eJC
 		clearBtn.addEventListener('click', ClearAllTask);
 		filter.addEventListener('keyup', filterTask);
 	}
-	
+
 	function getTask(task){
 		let taskStorage ;
 		if (localStorage.getItem('taskStorage') === null) {
@@ -28,7 +26,7 @@ let google_link = `https://drive.google.com/drive/folders/1BqoQL-iiIHPfvDYDU7eJC
 		}else{
 			taskStorage = JSON.parse(localStorage.getItem('taskStorage'))
 		}
-		
+
 		taskStorage.forEach(function(task){
 			let li = document.createElement('li');
 			li.className ='list-group-item';
@@ -37,7 +35,7 @@ let google_link = `https://drive.google.com/drive/folders/1BqoQL-iiIHPfvDYDU7eJC
 			link.className='glyphicon glyphicon-remove text-right';
 			li.appendChild(link)
 			ul.appendChild(li);
-			
+
 		})
 
 	}
@@ -93,7 +91,7 @@ let google_link = `https://drive.google.com/drive/folders/1BqoQL-iiIHPfvDYDU7eJC
 	}
 
 	function removeTask(e){
-		
+
 		if (e.target.classList.contains('glyphicon')) {
 			if (confirm('are you sure you want to delete ?')) {
 				e.target.parentElement.remove();
@@ -131,7 +129,7 @@ let google_link = `https://drive.google.com/drive/folders/1BqoQL-iiIHPfvDYDU7eJC
 		}
 
 		clearAllTaskFromLS();
-	
+
 	}
 
 	function clearAllTaskFromLS(){
@@ -157,7 +155,7 @@ let google_link = `https://drive.google.com/drive/folders/1BqoQL-iiIHPfvDYDU7eJC
 
 		})
 
-		
+
 
 	}
 
@@ -219,7 +217,7 @@ maxNum.textContent = max;
 		}else{
 			// wrong answer
 			// guessLeft = guessLeft -1;
-			// short hand 
+			// short hand
 			   guessLeft -=1;
 			   if (guessLeft === 0) {
 			   		gameOver(false,`Game Over!, You Lost The winning number was ${winningNum}`);
