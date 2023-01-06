@@ -328,7 +328,3 @@ form#book-form{
     border: 1px solid #ddd;
     color: black;
 }
-/* added */
-.custom-container a {
-    color: red;
-}
